@@ -1,4 +1,4 @@
-name: Update Mihomo Rules
+name: Generate Mihomo MRS Rules
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
     - cron: '0 2 * * *'
 
 jobs:
-  build:
+  build_mrs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -22,18 +22,31 @@ jobs:
         with:
           python-version: '3.10'
 
-      # 关键：确保这里拉取到了数据
-      - name: Clone Data
+      - name: Clone v2fly Data
         run: |
           git clone --depth 1 https://github.com/v2fly/domain-list-community.git
-          # 不再使用复杂的 sparse-checkout，直接拉取以确保路径正确
 
-      - name: Run Converter
-        # 确保你的脚本在仓库根目录，且名字叫 v2fly2mihomo.py
+      - name: Prepare YAML Rules
         run: python v2fly2mihomo.py
 
-      - name: Commit
+      - name: Install Mihomo
+        run: |
+          # 下载最新的 Mihomo 内核用于编译 MRS
+          curl -L -o mihomo.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.19.0/mihomo-linux-amd64-v1.19.0.gz
+          gunzip mihomo.gz
+          chmod +x mihomo
+
+      - name: Compile MRS
+        run: |
+          mkdir -p mrs_rules
+          # 遍历生成的 yaml 文件并编译为 mrs
+          for file in mihomo_rules/*.yaml; do
+            filename=$(basename "$file" .yaml)
+            ./mihomo rule-set compile "$file" -o "mrs_rules/${filename}.mrs"
+          done
+
+      - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto Update"
-          file_pattern: 'mihomo_rules/*.yaml'
+          commit_message: "🤖 Update MRS Rules"
+          file_pattern: 'mrs_rules/*.mrs'
