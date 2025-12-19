@@ -1,4 +1,4 @@
 payload:
-  - 'DOMAIN-SUFFIX,quip-cdn.com'
-  - 'DOMAIN-SUFFIX,quip.com'
-  - 'DOMAIN-SUFFIX,quipelements.com'
+  - DOMAIN-SUFFIX,quip-cdn.com
+  - DOMAIN-SUFFIX,quip.com
+  - DOMAIN-SUFFIX,quipelements.com

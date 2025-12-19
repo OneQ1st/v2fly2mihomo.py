@@ -1,18 +1,18 @@
 payload:
-  - 'DOMAIN-SUFFIX,dcocsp.cn'
-  - 'DOMAIN-SUFFIX,digicert-cn.com # Not in Chinese Mainland'
-  - 'DOMAIN-SUFFIX,digicert-validation.com'
-  - 'DOMAIN-SUFFIX,digicert.cn'
-  - 'DOMAIN-SUFFIX,digicert.co.jp'
-  - 'DOMAIN-SUFFIX,digicert.com'
-  - 'DOMAIN-SUFFIX,digicert.eu'
-  - 'DOMAIN-SUFFIX,digitalcertvalidation.com'
-  - 'DOMAIN-SUFFIX,freessl.com'
-  - 'DOMAIN-SUFFIX,geotrust.com'
-  - 'DOMAIN-SUFFIX,rapidssl.com'
-  - 'DOMAIN-SUFFIX,thawte.com'
-  - 'DOMAIN-SUFFIX,thawte.de'
-  - 'DOMAIN-SUFFIX,thawte.fr'
-  - 'DOMAIN-SUFFIX,quovadisglobal.com'
-  - 'DOMAIN-SUFFIX,public-trust.com'
-  - 'DOMAIN-SUFFIX,omniroot.com'
+  - DOMAIN-SUFFIX,dcocsp.cn
+  - DOMAIN-SUFFIX,digicert-cn.com # Not in Chinese Mainland
+  - DOMAIN-SUFFIX,digicert-validation.com
+  - DOMAIN-SUFFIX,digicert.cn
+  - DOMAIN-SUFFIX,digicert.co.jp
+  - DOMAIN-SUFFIX,digicert.com
+  - DOMAIN-SUFFIX,digicert.eu
+  - DOMAIN-SUFFIX,digitalcertvalidation.com
+  - DOMAIN-SUFFIX,freessl.com
+  - DOMAIN-SUFFIX,geotrust.com
+  - DOMAIN-SUFFIX,rapidssl.com
+  - DOMAIN-SUFFIX,thawte.com
+  - DOMAIN-SUFFIX,thawte.de
+  - DOMAIN-SUFFIX,thawte.fr
+  - DOMAIN-SUFFIX,quovadisglobal.com
+  - DOMAIN-SUFFIX,public-trust.com
+  - DOMAIN-SUFFIX,omniroot.com

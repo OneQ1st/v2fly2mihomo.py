@@ -1,3 +1,3 @@
 payload:
-  - 'DOMAIN-SUFFIX,drbl.in'
-  - 'DOMAIN-SUFFIX,dribbble.com'
+  - DOMAIN-SUFFIX,drbl.in
+  - DOMAIN-SUFFIX,dribbble.com

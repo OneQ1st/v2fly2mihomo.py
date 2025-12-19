@@ -1,4 +1,4 @@
 payload:
-  - 'DOMAIN-SUFFIX,auth0.com'
-  - 'DOMAIN-SUFFIX,civitai.com'
-  - 'DOMAIN-SUFFIX,porkbun.com'
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,civitai.com
+  - DOMAIN-SUFFIX,porkbun.com

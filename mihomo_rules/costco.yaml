@@ -1,4 +1,4 @@
 payload:
-  - 'DOMAIN-SUFFIX,costco-static.com'
-  - 'DOMAIN-SUFFIX,costco.com'
-  - 'DOMAIN-SUFFIX,costcobusinessdelivery.com'
+  - DOMAIN-SUFFIX,costco-static.com
+  - DOMAIN-SUFFIX,costco.com
+  - DOMAIN-SUFFIX,costcobusinessdelivery.com

@@ -1,4 +1,4 @@
 payload:
-  - 'DOMAIN-SUFFIX,disqus.com'
-  - 'DOMAIN-SUFFIX,disquscdn.com'
-  - 'DOMAIN-SUFFIX,disqusservice.com'
+  - DOMAIN-SUFFIX,disqus.com
+  - DOMAIN-SUFFIX,disquscdn.com
+  - DOMAIN-SUFFIX,disqusservice.com

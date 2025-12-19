@@ -1,5 +1,5 @@
 payload:
-  - 'DOMAIN-SUFFIX,wisecoin.com'
-  - 'DOMAIN-SUFFIX,wiseid.com'
-  - 'DOMAIN-SUFFIX,wisekey.com'
-  - 'DOMAIN-SUFFIX,wisekey.com.hk'
+  - DOMAIN-SUFFIX,wisecoin.com
+  - DOMAIN-SUFFIX,wiseid.com
+  - DOMAIN-SUFFIX,wisekey.com
+  - DOMAIN-SUFFIX,wisekey.com.hk

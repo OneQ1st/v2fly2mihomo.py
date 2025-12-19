@@ -1,4 +1,4 @@
 payload:
-  - 'DOMAIN-SUFFIX,bit.ly'
-  - 'DOMAIN-SUFFIX,bitly.com'
-  - 'DOMAIN-SUFFIX,bitly.is'
+  - DOMAIN-SUFFIX,bit.ly
+  - DOMAIN-SUFFIX,bitly.com
+  - DOMAIN-SUFFIX,bitly.is
