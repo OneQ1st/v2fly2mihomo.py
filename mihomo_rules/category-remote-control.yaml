@@ -1,4 +1,4 @@
 payload:
-  - DOMAIN-SUFFIX,anydesk.com
-  - DOMAIN-SUFFIX,nomachine.com
-  - DOMAIN-SUFFIX,rustdesk.com
+  - 'DOMAIN-SUFFIX,anydesk.com'
+  - 'DOMAIN-SUFFIX,nomachine.com'
+  - 'DOMAIN-SUFFIX,rustdesk.com'

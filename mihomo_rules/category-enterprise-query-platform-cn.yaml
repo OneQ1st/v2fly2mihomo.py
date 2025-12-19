@@ -1,4 +1,4 @@
 payload:
-  - DOMAIN-SUFFIX,qichamao.com
-  - DOMAIN-SUFFIX,qyyjt.cn
-  - DOMAIN-SUFFIX,x315.com
+  - 'DOMAIN-SUFFIX,qichamao.com'
+  - 'DOMAIN-SUFFIX,qyyjt.cn'
+  - 'DOMAIN-SUFFIX,x315.com'

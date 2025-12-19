@@ -1,4 +1,4 @@
 payload:
-  - DOMAIN-SUFFIX,ynet.cn
-  - DOMAIN-SUFFIX,ynet.com
-  - DOMAIN-SUFFIX,ynet.com.cn
+  - 'DOMAIN-SUFFIX,ynet.cn'
+  - 'DOMAIN-SUFFIX,ynet.com'
+  - 'DOMAIN-SUFFIX,ynet.com.cn'

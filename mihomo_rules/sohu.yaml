@@ -1,7 +1,7 @@
 payload:
-  - DOMAIN-SUFFIX,sohu
-  - DOMAIN-SUFFIX,focus-img.cn
-  - DOMAIN-SUFFIX,focus.cn
-  - DOMAIN-SUFFIX,itc.cn
-  - DOMAIN-SUFFIX,sohu.com
-  - DOMAIN-SUFFIX,sohucs.com
+  - 'DOMAIN-SUFFIX,sohu'
+  - 'DOMAIN-SUFFIX,focus-img.cn'
+  - 'DOMAIN-SUFFIX,focus.cn'
+  - 'DOMAIN-SUFFIX,itc.cn'
+  - 'DOMAIN-SUFFIX,sohu.com'
+  - 'DOMAIN-SUFFIX,sohucs.com'

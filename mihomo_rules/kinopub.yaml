@@ -1,6 +1,6 @@
 payload:
-  - DOMAIN-SUFFIX,kino.pub
-  - DOMAIN-SUFFIX,kinopub.online
-  - DOMAIN-SUFFIX,gfw.ovh # sub domains mirror
-  - DOMAIN-SUFFIX,mos-gorsud.co # kinopub domain to generate a mirror site through gfw.ovh
-  - DOMAIN-SUFFIX,regexp:(\w+)-static-[0-9]+\.cdntogo\.net$
+  - 'DOMAIN-SUFFIX,kino.pub'
+  - 'DOMAIN-SUFFIX,kinopub.online'
+  - 'DOMAIN-SUFFIX,gfw.ovh # sub domains mirror'
+  - 'DOMAIN-SUFFIX,mos-gorsud.co # kinopub domain to generate a mirror site through gfw.ovh'
+  - 'DOMAIN-SUFFIX,regexp:(\w+)-static-[0-9]+\.cdntogo\.net$'
