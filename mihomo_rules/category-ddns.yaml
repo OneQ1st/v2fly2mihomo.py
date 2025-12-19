@@ -1,0 +1,6 @@
+payload:
+  - 'DOMAIN-SUFFIX,dpdns.org'
+  - 'DOMAIN-SUFFIX,duckdns.org'
+  - 'DOMAIN-SUFFIX,nip.io'
+  - 'DOMAIN-SUFFIX,sslip.io'
+  - 'DOMAIN-SUFFIX,traefik.me'

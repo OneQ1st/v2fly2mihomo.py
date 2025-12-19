@@ -1,0 +1,4 @@
+payload:
+  - 'DOMAIN-SUFFIX,llama.com'
+  - 'DOMAIN-SUFFIX,meta.ai'
+  - 'DOMAIN-SUFFIX,meta.com'

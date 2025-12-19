@@ -1,0 +1,3 @@
+payload:
+  - 'DOMAIN-SUFFIX,domain:okaapps.com'
+  - 'DOMAIN-SUFFIX,regexp:^(.+\.)*zh\.okaapps\.com$'
