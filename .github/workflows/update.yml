@@ -1,0 +1,39 @@
+name: Update Mihomo Rules
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 2 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # 关键：确保这里拉取到了数据
+      - name: Clone Data
+        run: |
+          git clone --depth 1 https://github.com/v2fly/domain-list-community.git
+          # 不再使用复杂的 sparse-checkout，直接拉取以确保路径正确
+
+      - name: Run Converter
+        # 确保你的脚本在仓库根目录，且名字叫 v2fly2mihomo.py
+        run: python v2fly2mihomo.py
+
+      - name: Commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto Update"
+          file_pattern: 'mihomo_rules/*.yaml'
