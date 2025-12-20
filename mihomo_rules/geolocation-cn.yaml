@@ -4,6 +4,7 @@ payload:
   - 'DOMAIN-SUFFIX,lu.com'
   - 'DOMAIN-SUFFIX,lufax.com'
   - 'DOMAIN-SUFFIX,lufaxcdn.com'
+  - 'DOMAIN-SUFFIX,pospal.cn'
   - 'DOMAIN-SUFFIX,baijiayun.com'
   - 'DOMAIN-SUFFIX,chuangcache.com'
   - 'DOMAIN-SUFFIX,chuangcdn.com'
