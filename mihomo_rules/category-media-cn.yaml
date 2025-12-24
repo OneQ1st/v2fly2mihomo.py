@@ -50,6 +50,8 @@ payload:
   - 'DOMAIN-SUFFIX,jianyuweb.com'
   - 'DOMAIN-SUFFIX,wallstcn.com'
   - 'DOMAIN-SUFFIX,wallstreetcn.com'
+  - 'DOMAIN-SUFFIX,jfdaily.com'
+  - 'DOMAIN-SUFFIX,shobserver.com'
   - 'DOMAIN-SUFFIX,jiqizhixin.com'
   - 'DOMAIN-SUFFIX,jrj.com.cn'
   - 'DOMAIN-SUFFIX,jrjimg.cn'
