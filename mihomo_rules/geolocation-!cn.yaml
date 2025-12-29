@@ -12,6 +12,7 @@ payload:
   - 'DOMAIN-SUFFIX,cookiepro.com'
   - 'DOMAIN-SUFFIX,cookielaw.org'
   - 'DOMAIN-SUFFIX,onetrust.com'
+  - 'DOMAIN-SUFFIX,dmhy.org'
   - 'DOMAIN-SUFFIX,greasyfork.org'
   - 'DOMAIN-SUFFIX,atwiki.jp'
   - 'DOMAIN-SUFFIX,touhouwiki.net'
