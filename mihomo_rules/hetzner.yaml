@@ -1,5 +1,6 @@
 payload:
   - 'DOMAIN-SUFFIX,first-ns.de'
+  - 'DOMAIN-SUFFIX,hetzner-cloud.de'
   - 'DOMAIN-SUFFIX,hetzner.cloud'
   - 'DOMAIN-SUFFIX,hetzner.com'
   - 'DOMAIN-SUFFIX,hetzner.company'
